@@ -1,0 +1,8 @@
+[package]
+name = "mystic-app"
+version = "0.1.0"
+authors = ["you"]
+entry = "samples/main.my"
+
+[dependencies]
+nebula-ui = "*"

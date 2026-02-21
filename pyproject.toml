@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mystic-language"
+version = "0.1.0"
+description = "Mystic: an English-first programming language."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Mystic Language Contributors" }
+]
+keywords = ["programming-language", "transpiler", "english-syntax", "mystic"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Interpreters"
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/mystic-language"
+Repository = "https://github.com/your-username/mystic-language"
+Issues = "https://github.com/your-username/mystic-language/issues"
+
+[project.scripts]
+mystic = "mystic.cli:main"
+myst = "myst.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
