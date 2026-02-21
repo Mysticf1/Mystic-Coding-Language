@@ -25,7 +25,7 @@ Mystic is a beginner-friendly, modern programming language with full English-sty
 Once this repo is on GitHub, users can install Mystic directly:
 
 ```powershell
-python -m pip install "git+https://github.com/<your-user>/<your-repo>.git"
+python -m pip install "git+https://github.com/Mysticf1/Mystic-Coding-Language.git"
 ```
 
 Then they can run:
